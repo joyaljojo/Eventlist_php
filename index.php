@@ -11,7 +11,7 @@
         exit();
     }  
     }
-  }// Retrieve all events
+  }
 ?>
 
 <?php require 'head.php'; ?>
@@ -21,7 +21,7 @@
     <div class="row">
       
       <?php foreach ($events as $event) { ?>
-      <!-- Event Card -->
+    
       <div class="col col-lg-4">
         <div class="card m-3">
           <div class="card-img-top bg-secondary-subtle fs-1 d-grid justify-content-center align-content-center p-5">
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <!-- End Event Card -->
+      
       <?php } ?>
 
     </div>
