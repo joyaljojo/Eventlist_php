@@ -32,7 +32,4 @@ The Event Management Application is a web-based PHP application designed to mana
 4. Host the application files on your web server.
 5. Access `add.php` through your web browser to add new events.
 6. Access `index.php` through your web browser to view and manage events.
-# Eventslist
 
-## Objective
-Add new features to the Eventsy web application. 
