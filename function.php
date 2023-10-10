@@ -73,12 +73,12 @@ function validate($data) {
    require 'db.php';
   function getEvents() {
   
-      global $db;  // Use the $db connection from db.php
+      global $db; 
   
       $query = "SELECT * FROM events";
       $statement = $db->query($query);
   
-      // Fetch all events as an associative array
+      
       $events = $statement->fetchAll(PDO::FETCH_ASSOC);
   
       return $events;
@@ -92,7 +92,7 @@ function validate($data) {
    * @return int
    */
   function createEvent ($data) {
-    global $db;  // Use the $db connection from db.php
+    global $db; 
 
     $query = "INSERT INTO events (title, email, date) VALUES (:title, :email, :date)";
     $statement = $db->prepare($query);
