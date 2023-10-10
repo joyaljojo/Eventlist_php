@@ -26,7 +26,7 @@
    * @param array $data
    * @return array $errors
    */
- // functions.php
+
 
 function validate($data) {
   $fields = ['title', 'email', 'date'];
@@ -70,7 +70,6 @@ function validate($data) {
    * Gets all events from the database
    * @return array
    */
-   // Include the database connection
    require 'db.php';
   function getEvents() {
   
